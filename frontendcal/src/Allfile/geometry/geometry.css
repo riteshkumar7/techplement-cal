@@ -1,0 +1,265 @@
+.geometry-nav{
+background-color: #5D0E41;
+height: 70px;
+color:#FEFAF6;
+display: flex;
+}
+.geometry-nav {
+    padding-top: 20px;
+    font-size: 25px;
+}
+.circle,.cone,.cube,.cylinder,.square,.sphere,.twoD,.threeD,.right,.equilateral,.isoscele,.rectangle{
+background-color: #FEFDED;
+height: 646px;
+}
+/*circle css*/
+.circle-form{
+    width: 450px;
+    height: 230px;
+    border: 0;
+    box-shadow: 0 0 15px black;
+    padding: 20px;
+    margin: 90px 0 0 440px;
+    transition: height 0.001s ease-in-out;
+}
+.circle-form.expanded {
+    height: 400px;
+}
+.circle-result{
+    width: 410px;
+    height: 150px;
+    padding: 20px;
+    border: 0;
+    box-shadow: 0 0 10px black;
+    margin: 15px 0 0 0;
+    font-size: 18px;
+}
+/*cone css*/
+.cone-form{
+    width: 450px;
+    height: 230px;
+    border: 0;
+    box-shadow: 0 0 15px black;
+    padding: 20px;
+    margin: 90px 0 0 440px;
+    transition: height 0.001s ease-in-out;
+}
+.cone-form.expanded {
+    height: 400px;
+}
+.cone-result{
+    width: 410px;
+    height: 150px;
+    padding: 20px;
+    border: 0;
+    box-shadow: 0 0 10px black;
+    margin: 15px 0 0 0;
+    font-size: 18px;
+}
+/*cube css*/
+.cube-form{
+    width: 450px;
+    height: 230px;
+    border: 0;
+    box-shadow: 0 0 15px black;
+    padding: 20px;
+    margin: 90px 0 0 440px;
+    transition: height 0.001s ease-in-out;
+}
+.cube-form.expanded {
+    height: 320px;
+}
+.cube-result{
+    width: 410px;
+    height: 70px;
+    padding: 20px;
+    border: 0;
+    box-shadow: 0 0 10px black;
+    margin: 15px 0 0 0;
+    font-size: 18px;
+}
+/*cylinder css*/
+.cylinder-form{
+    width: 450px;
+    height: 410px;
+    border: 0;
+    box-shadow: 0 0 15px black;
+    padding: 20px;
+    margin: 50px 0 0 440px;
+}
+/*square css*/
+.square-form{
+    width: 450px;
+    height: 230px;
+    border: 0;
+    box-shadow: 0 0 15px black;
+    padding: 20px;
+    margin: 90px 0 0 440px;
+    transition: height 0.001s ease-in-out;
+}
+.square-form.expanded {
+    height: 320px;
+}
+.square-result{
+    width: 410px;
+    height: 70px;
+    padding: 20px;
+    border: 0;
+    box-shadow: 0 0 10px black;
+    margin: 15px 0 0 0;
+    font-size: 18px;
+}
+/*sphere css*/
+.sphere-form{
+    width: 500px;
+    height: 200px;
+    border: 0;
+    box-shadow: 0 0 15px black;
+    padding: 20px;
+    margin: 50px 0 0 440px;
+    transition: height 0.001s ease-in-out;
+}
+.sphere-form.expanded {
+    height: 320px;
+}
+.sphere-result{
+    width: 410px;
+    height: 70px;
+    padding: 20px;
+    border: 0;
+    box-shadow: 0 0 10px black;
+    margin: 15px 0 0 0;
+    font-size: 18px;
+}
+/*towD css*/
+.twoD-form{
+    width: 450px;
+    height: 230px;
+    border: 0;
+    box-shadow: 0 0 15px black;
+    padding: 20px;
+    margin: 70px 0 0 440px;
+    transition: height 0.001s ease-in-out;
+}
+.twoD-form.expanded {
+    height: 320px;
+}
+.twoD-result{
+    width: 410px;
+    height: 70px;
+    padding: 20px;
+    border: 0;
+    box-shadow: 0 0 10px black;
+    margin: 15px 0 0 0;
+    font-size: 18px;
+}
+/*threeD css*/
+.threeD-form{
+    width: 450px;
+    height: 300px;
+    border: 0;
+    box-shadow: 0 0 15px black;
+    padding: 20px;
+    margin: 70px 0 0 440px;
+    transition: height 0.001s ease-in-out;
+}
+.threeD-form.expanded {
+    height: 320px;
+}
+.threeD-result{
+    width: 410px;
+    height: 70px;
+    padding: 20px;
+    border: 0;
+    box-shadow: 0 0 10px black;
+    margin: 15px 0 0 0;
+    font-size: 18px;
+}
+/*Right css*/
+.right-form{
+    width: 450px;
+    height: 360px;
+    border: 0;
+    box-shadow: 0 0 15px black;
+    padding: 20px;
+    margin: 70px 0 0 260px;
+    transition: height 0.001s ease-in-out;
+}
+.right-form.expanded {
+    height: 380px;
+}
+.right-result{
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    border: 0;
+    box-shadow: 0 0 10px black;
+    margin: 80px 0 0 100px;
+    font-size: 18px;
+}
+/*equilateral css*/
+.equilateral-form{
+    width: 450px;
+    height: 230px;
+    border: 0;
+    box-shadow: 0 0 15px black;
+    padding: 20px;
+    margin: 70px 0 0 440px;
+    transition: height 0.001s ease-in-out;
+}
+.equilateral-form.expanded {
+    height: 320px;
+}
+.equilateral-result{
+    width: 410px;
+    height: 70px;
+    padding: 20px;
+    border: 0;
+    box-shadow: 0 0 10px black;
+    margin: 15px 0 0 0;
+    font-size: 18px;
+}
+/*isoscele css*/
+.isoscele-form{
+    width: 450px;
+    height: 360px;
+    border: 0;
+    box-shadow: 0 0 15px black;
+    padding: 20px;
+    margin: 70px 0 0 300px;
+    transition: height 0.001s ease-in-out;
+}
+.isoscele-form.expanded {
+    height: 320px;
+}
+.isoscele-result{
+    width: 410px;
+    height: 70px;
+    padding: 20px;
+    border: 0;
+    box-shadow: 0 0 10px black;
+    margin: 70px 0 0 70px;
+    font-size: 18px;
+}
+/*rectangle css*/
+.rectangle-form{
+    width: 450px;
+    height: 290px;
+    border: 0;
+    box-shadow: 0 0 15px black;
+    padding: 20px;
+    margin: 70px 0 0 440px;
+    transition: height 0.001s ease-in-out;
+}
+.rectangle-form.expanded {
+    height: 380px;
+}
+.rectangle-result{
+    width: 410px;
+    height: 70px;
+    padding: 20px;
+    border: 0;
+    box-shadow: 0 0 10px black;
+    margin: 25px 0 0 0;
+    font-size: 18px;
+}

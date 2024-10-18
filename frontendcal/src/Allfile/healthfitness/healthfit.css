@@ -1,0 +1,125 @@
+.healthfit-nav{
+    background-color: cornflowerblue;
+    height: 70px;
+    color: snow;
+    text-align: center;
+    display: flex;   
+}
+.healthfit-nav p{
+    padding-top: 20px;
+    font-size: 25px;
+}
+.bmi,.bmr,.bodyfat,.calorie,.ideal{
+    background-color: lightgrey;
+    height: 646px;
+}
+/*BMI css*/
+.bmi-form{
+    width: 400px;
+    height: 350px;
+    border: 1px solid black;
+    box-shadow: 0 0 15px black;
+    padding: 20px;
+    margin: 40px 0 0 450px ; 
+    transition: height 0.001s ease-in-out;
+}
+.bmi-form.expanded {
+height: 450px;
+}
+.bmi-result{
+    width: 355px;
+    height: 90px;
+    border: 0;
+    padding: 20px;
+    font-size: 16px;
+    box-shadow: 0 0 10px black;
+    margin-top: 20px;    
+}
+/*BMR css*/
+.bmr-form{
+    width: 400px;
+    height: 350px;
+    border: 1px solid black;
+    box-shadow: 0 0 15px black;
+    padding:20px;
+    margin: 40px 0 0 450px ; 
+    transition: height 0.001s ease-in-out;
+}
+.bmr-form.expanded {
+height: 450px;
+}
+.bmr-result{
+    width: 355px;
+    height: 90px;
+    border: 0;
+    padding: 20px;
+    font-size: 16px;
+    box-shadow: 0 0 10px black;
+    margin-top: 20px;    
+}
+/*BodyFat css*/
+.bodyfat-form{
+    width: 500px;
+    height: 425px;
+    border: 1px solid black;
+    box-shadow: 0 0 15px black;
+    padding:20px;
+    margin: 30px 0 0 400px ; 
+    transition: height 0.001s ease-in-out;
+}
+.bodyfat-form.expanded {
+height: 525px;
+}
+.bodyfat-result{
+    width: 450px;
+    height: 80px;
+    border: 0;
+    padding: 20px;
+    font-size: 16px;
+    box-shadow: 0 0 10px black;
+    margin-top: 20px;    
+}
+/* Calorie css*/
+.calorie-form{
+    width: 500px;
+    height: 425px;
+    border: 1px solid black;
+    box-shadow: 0 0 15px black;
+    padding:20px;
+    margin: 30px 0 0 400px ; 
+    transition: height 0.001s ease-in-out;
+}
+.calorie-form.expanded {
+height: 525px;
+}
+.calorie-result{
+    width: 450px;
+    height: 90px;
+    border: 0;
+    padding: 20px;
+    font-size: 16px;
+    box-shadow: 0 0 10px black;
+    margin-top: 20px;    
+}
+/*IdealWeight css*/
+.ideal-form{
+    width: 450px;
+    height: 280px;
+    border: 1px solid black;
+    box-shadow: 0 0 15px black;
+    padding:20px;
+    margin: 30px 0 0 450px ; 
+    transition: height 0.001s ease-in-out;
+}
+.ideal-form.expanded {
+height: 480px;
+}
+.ideal-result{
+    width: 400px;
+    height: 190px;
+    border: 0;
+    padding: 20px;
+    font-size: 16px;
+    box-shadow: 0 0 10px black;
+    margin-top: 20px;    
+}

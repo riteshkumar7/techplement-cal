@@ -1,0 +1,168 @@
+.math-nav{
+    background-color: #524C42;
+    height: 70px;
+    color: #E2DFD0;
+    display: flex;
+}
+.math-nav p{
+    font-size: 25px;
+    padding-top: 20px;
+}
+.percentage,.partial,.inequality,.impulse,.flowrate,.factorization,.exponential,.cuberoot,.cubenumber,.complex,.boolean{
+    background-color: #E2DFD0;
+    height: 646px;
+}
+/*percentage css*/
+.percentage-form{
+    width: 400px;
+    height:170px;
+    border: 0;
+    padding:20px;
+    margin: 80px 0 0 450px;
+    box-shadow: 0 0 15px black;
+    transition: height 0.001s ease-in-out;
+}
+.percentage-form.expanded {
+    height: 250px;
+}
+.percentage-result{
+    width: 355px;
+    height: 80px;
+    padding: 20px;
+    border: 0;
+    box-shadow: 0 0 10px black;
+    margin: 15px 0 0 0;
+    font-size: 18px;
+}
+/*Factorisation css*/
+.factorization-form{
+    width: 400px;
+    height:170px;
+    border: 0;
+    padding:20px;
+    margin: 80px 0 0 450px;
+    box-shadow: 0 0 15px black;
+    transition: height 0.001s ease-in-out;
+}
+.factorization-form.expanded {
+    height: 350px;
+}
+.factorization-result{
+    width: 355px;
+    height: 180px;
+    padding: 20px;
+    border: 0;
+    box-shadow: 0 0 10px black;
+    margin: 15px 0 0 0;
+    font-size: 18px;
+}
+/*Impulse css*/
+.impulse-form{
+    width: 390px;
+    height:310px;
+    border: 0;
+    padding:20px;
+    margin: 80px 0 0 450px;
+    box-shadow: 0 0 15px black;
+    transition: height 0.001s ease-in-out;
+}
+.impulse-form.expanded {
+    height: 400px;
+}
+.impulse-result{
+    width: 355px;
+    height: 80px;
+    padding: 20px;
+    border: 0;
+    box-shadow: 0 0 10px black;
+    margin: 15px 0 0 0;
+    font-size: 18px;
+}
+/*flowrate css*/
+.flowrate-form{
+    width: 390px;
+    height:310px;
+    border: 0;
+    padding:20px;
+    margin: 80px 0 0 450px;
+    box-shadow: 0 0 15px black;
+    transition: height 0.001s ease-in-out;
+}
+.flowrate-form.expanded {
+    height: 400px;
+}
+.flowrate-result{
+    width: 355px;
+    height: 80px;
+    padding: 20px;
+    border: 0;
+    box-shadow: 0 0 10px black;
+    margin: 15px 0 0 0;
+    font-size: 18px;
+}
+/*inequality css*/
+.inequality-form{
+    width: 390px;
+    height:250px;
+    border: 0;
+    padding:20px;
+    margin: 80px 0 0 450px;
+    box-shadow: 0 0 15px black;
+    transition: height 0.001s ease-in-out;
+}
+.inequality-form.expanded {
+    height: 310px;
+}
+.inequality-result{
+    width: 355px;
+    height: 60px;
+    padding: 20px;
+    border: 0;
+    box-shadow: 0 0 10px black;
+    margin: 15px 0 0 0;
+    font-size: 18px;
+}
+/*Complex css*/
+.complex-form{
+    width: 390px;
+    height:250px;
+    border: 0;
+    padding:20px;
+    margin: 80px 0 0 450px;
+    box-shadow: 0 0 15px black;
+    transition: height 0.001s ease-in-out;
+}
+.complex-form.expanded {
+    height: 310px;
+}
+.complex-result{
+    width: 355px;
+    height: 60px;
+    padding: 20px;
+    border: 0;
+    box-shadow: 0 0 10px black;
+    margin: 15px 0 0 0;
+    font-size: 18px;
+}
+/*boolean css*/
+.boolean-form{
+    width: 390px;
+    height:250px;
+    border: 0;
+    padding:20px;
+    margin: 80px 0 0 450px;
+    box-shadow: 0 0 15px black;
+    transition: height 0.001s ease-in-out;
+}
+.boolean-form.expanded {
+    height: 310px;
+}
+.boolean-result{
+    width: 355px;
+    height: 60px;
+    padding: 20px;
+    border: 0;
+    box-shadow: 0 0 10px black;
+    margin: 15px 0 0 0;
+    font-size: 18px;
+}

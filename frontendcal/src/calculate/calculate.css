@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&family=Jersey+15&family=Pacifico&display=swap');
+.container{
+    background-color: #04255c;
+    height: 75px;
+    display: flex;
+}
+
+.head{
+    font-size: 30px;
+    color: #f0f0f5;
+    font-family: "Pacifico", cursive;
+    padding: 30px 750px 0 100px;
+}
+.p2{
+    display: flex;
+}
+.p3{
+    font-size: 20px;
+    color: #f0f0f5;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.icon1{
+    background-color: #f0f0f5;
+    width: 25px;
+    height: 25px;
+    margin: 20px 0 0 5px;
+}
+.cal-area{
+    background-color: #f0f0f5;
+    height: 571px;
+    padding: 50px 0 0 370px;
+}
+.cal-box{
+    width: 610px;
+    height: 420px;
+    border: 2px solid #f0f0f5;
+}
+.input{
+    width: 570px;
+    height: 70px;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    background-color: floralwhite;
+}
+.btns{
+    margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.number-button{
+    width: 100px;
+    height: 40px;
+    margin: 8px;
+    font-size: 20px;
+    background-color: #bbbcbd;
+    border: 0;
+    box-shadow: 0 0 8px ;
+    cursor: pointer;
+}
+.number-btn1{
+    width: 100px;
+    height: 40px;
+    margin: 8px;
+    font-size: 20px;
+    background-color: #568ce3;
+    border: 0;
+    box-shadow: 0 0 8px ;
+    cursor: pointer;
+}
+.number{
+    width: 100px;
+    height: 40px;
+    margin: 8px;
+    font-size: 20px;
+    background-color: #f2f5fa;
+    border: 0;
+    box-shadow: 0 0 8px ;   
+    cursor: pointer;
+}
